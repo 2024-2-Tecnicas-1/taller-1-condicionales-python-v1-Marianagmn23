@@ -1,6 +1,5 @@
 def evaluar(a, b, c):
     # TODO: Coloca aquí el código del ejercicio 1: Set de tenis
-    respuesta = ""
 
     if a < (b + c) and b < (a + c) and c < (a + b):
         if (a == b and a != c) or (a == c and b != c) or (b == c and a != b):
