@@ -1,15 +1,17 @@
 def evaluar(anno):
     # TODO: Coloca aquí el código del ejercicio 2: Años bisiestos
+    respuesta=""
     if anno >= 1582:
         if anno % 400 == 0 or (anno % 4 == 0 and anno % 100 != 0):
-            return f"{anno} es bisiesto"
+            respuesta = f"{anno} es bisiesto"
         else:
-            return f"{anno} no es bisiesto"
+            respuesta = f"{anno} no es bisiesto"
     else:
         if anno % 4 == 0:
-            return f"{anno} es bisiesto"
+            respuesta = f"{anno} es bisiesto"
         else:
-            return f"{anno} no es bisiesto"
+            respuesta = f"{anno} no es bisiesto"
+            return respuesta
             
 if __name__ == '__main__':
     print("Año:", end="")
