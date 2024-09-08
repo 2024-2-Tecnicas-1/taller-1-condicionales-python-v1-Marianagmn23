@@ -2,7 +2,7 @@ def evaluar(numero1, numero2, numero3, numero4):
 
     numeros = [numero1, numero2, numero3, numero4]
     numeros.sort()
-    respuesta = ''.join(map(str, numeros))
+    respuesta = ' '.join(map(str, numeros))
     return respuesta
 
 if __name__ == '__main__':
