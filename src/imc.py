@@ -1,7 +1,6 @@
 def evaluar(peso, estatura, edad):
         # TODO: Coloca aquí el código del ejercicio 8: Índice de masa corporal
     IMC = peso / (estatura ** 2)
-    respuesta = ""
     if edad < 45:
         if IMC < 22.0:
             respuesta = "bajo"
