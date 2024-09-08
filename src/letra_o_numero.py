@@ -1,7 +1,6 @@
 def evaluar(caracter):
 
     ascii_valor = ord(caracter)
-    respuesta = ""
 
     if 48 <= ascii_valor <= 57:
         respuesta = "Es número"
