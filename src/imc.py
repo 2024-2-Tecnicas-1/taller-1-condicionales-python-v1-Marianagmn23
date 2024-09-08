@@ -1,6 +1,19 @@
 def evaluar(peso, estatura, edad):
-    # TODO: Coloca aquí el código del ejercicio 8: Índice de masa corporal
-    return "";
+        # TODO: Coloca aquí el código del ejercicio 8: Índice de masa corporal
+    IMC = peso / (estatura ** 2)
+    respuesta = ""
+    if edad < 45:
+        if IMC < 22.0:
+            respuesta = "bajo"
+        else:
+            respuesta = "medio"
+    else:
+        if IMC < 22.0:
+            respuesta = "medio"
+        else:
+            respuesta = "alto"
+    
+    return respuesta
 
 if __name__ == '__main__':
     print("Peso:", end="")
@@ -12,3 +25,4 @@ if __name__ == '__main__':
         
     respuesta = evaluar(peso, estatura, edad)
     print(respuesta)
+
