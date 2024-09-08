@@ -1,6 +1,6 @@
 def evaluar(num_victorias_a, num_victorias_b):
     # TODO: Coloca aquí el código del ejercicio 1: Set de tenis
- respuesta = ""
+    respuesta = ""
 
     if (num_victorias_a >= 7 and num_victorias_b <= 4) or (num_victorias_b >= 7 and num_victorias_a <= 4) or num_victorias_a > 7 or num_victorias_b > 7:
         respuesta = "Inválido"

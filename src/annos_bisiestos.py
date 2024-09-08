@@ -11,7 +11,8 @@ def evaluar(anno):
             respuesta = f"{anno} es bisiesto"
         else:
             respuesta = f"{anno} no es bisiesto"
-            return respuesta
+
+    return respuesta
             
 if __name__ == '__main__':
     print("Año:", end="")
