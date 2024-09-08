@@ -10,7 +10,7 @@ def evaluar(dia, mes, anno):
         if (fecha_actual.month, fecha_actual.day) < (fecha_nacimiento.month, fecha_nacimiento.day):
             edad -= 1
         
-        respuesta = f"Usted tiene {edad} años."
+        respuesta = f"Usted tiene {edad} años"
         return respuesta
     
 
